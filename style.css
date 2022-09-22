@@ -5,15 +5,15 @@ body {
 
 
 .d {
-    height: 40px;
+    height: 70px;
     background-color: #424245;
     display: flex;
     align-items: center;
 }
 
 
-p{
-    font-size: 7px;
+.d p{
+    font-size: 12px;
     color: white;
     margin: 0 auto;
     display: flex;
@@ -22,10 +22,11 @@ p{
 }
 
 header {
-    height: 30px;
-    background-color: #313132;
+    height: 45px;
+    background-color: #1e1e1e;  
     display: flex;
     align-items: center;
+    opacity: .8;
 }
 
 ul {
@@ -34,36 +35,45 @@ ul {
     justify-content: space-around;
 }
 
+ul li{
+    list-style: none;
+}
+
 ul li a{
     display: inline-block;
-    font-size: 7px;
+    font-size: 12px;
     opacity: .8;
     font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     text-decoration: none;
     color: #f5f5f7;
-    margin: 0 14px;
+    margin: 0 25px;
 }
 
-.blo1{
-    height: 275px;
+ul li a i {
+    font-size: 18px;
+}
+
+.bl1{
+    height: 625px;
     background-color: #000000;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
 }
 
-.blo1 p{
-    font-size: 35px;
-    align-items: center;
-    display: flex;
+
+.text1 {
+    font-size: 55px;
+    color: white;
     font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    margin: 0 auto;
+    font-weight: 500px;
 }
 
-.blo1 .ff {
-    align-self: center;
-    font-size: 17px;
-    align-items: center;
+.text2 {
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
     font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    display: inline-block;
-    margin-left: 20px;
+    font-weight: bold;
+    margin: 0 auto; 
 }
